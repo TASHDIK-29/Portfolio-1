@@ -136,7 +136,7 @@ const ProjectCards = () => {
                 <Image className='h-72' src="/images/cook.png" alt="img" width={1366} height={1150}></Image>
                 <div className="flex flex-col justify-between p-6 space-y-8">
                     <div className="space-y-4">
-                        <h2 className="text-xl md:text-3xl font-semibold tracking-wide">Cook & Calories</h2>
+                        <h2 className="text-xl md:text-3xl font-semibold tracking-wide">Cook &amp; Calories</h2>
                         <p className="dark:text-gray-800 font-semibold">Online Cooking Platform</p>
                         <h3 className='flex flex-col md:flex-row'><span className='w-2/3 font-semibold'>Key Technologies :</span> <span className='font-bold'>React.js, JavaScript, Tailwind CSS</span></h3>
                         <div className='flex justify-between'>

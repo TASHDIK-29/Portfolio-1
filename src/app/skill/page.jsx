@@ -1,6 +1,11 @@
 import Skills from '@/components/Skills';
 import React from 'react';
 
+export const metadata = {
+    title: "Skill",
+    description: "Skill | Tashdik-WEB",
+  };
+
 const page = () => {
     return (
         <div>

@@ -1,6 +1,11 @@
 import ProjectCards from '@/components/ProjectCards';
 import React from 'react';
 
+export const metadata = {
+    title: "Projects",
+    description: "Projects | Tashdik-WEB",
+  };
+
 const page = () => {
     return (
         <div>

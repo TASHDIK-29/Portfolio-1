@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 import AOS from 'aos'
@@ -8,12 +8,15 @@ import 'aos/dist/aos.css'
 import Image from 'next/image';
 import { FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, [])
+
+    const formRef = useRef(null);
 
 
     const sendEmail = (e) => {
@@ -25,7 +28,7 @@ const Contact = () => {
         const message = form.message.value;
 
         const templateParams = {
-            from_name : name,
+            from_name : email,
             to_name : 'Tashdikur Rahman Khan',
             message
         }
@@ -38,7 +41,14 @@ const Contact = () => {
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    formRef.current.reset();
+                    Swal.fire({
+                        position: "top-center",
+                        icon: "success",
+                        title: "Thank you for your message.",
+                        showConfirmButton: false,
+                        timer: 1500
+                      });
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -85,7 +95,7 @@ const Contact = () => {
                                 to hear from you
                             </p>
 
-                            <form onSubmit={sendEmail} className="mt-12">
+                            <form ref={formRef} onSubmit={sendEmail} className="mt-12">
                                 <div className="-mx-2 md:items-center md:flex">
                                     <div className="flex-1 px-2">
                                         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>

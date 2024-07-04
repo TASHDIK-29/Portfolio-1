@@ -16,13 +16,13 @@ const About = () => {
     return (
         <div className='min-h-[calc(100vh-120px)] md:flex p-4'>
             <div className='md:w-1/2 p-8 md:p-16 flex items-center justify-center'>
-                <div className='bg-green-400 w-full md:w-1/2 h-[300px] relative' data-aos="fade-left">
+                <div className='bg-green-400 w-full md:w-1/2 h-[300px] relative' data-aos="fade-up">
                     <div className='h-full w-full absolute left-4 bottom-4' >
                         <Image className='h-full' src="/images/about.png" alt='about.png' width={495} height={505}></Image>
                     </div>
                 </div>
             </div>
-            <div className='w-full md:w-1/2 flex flex-col justify-center items-start' data-aos="fade-left">
+            <div className='w-full md:w-1/2 flex flex-col justify-center items-start' data-aos="fade-up">
                 <div className='flex flex-col md:p-10'>
                     <h1 className='text-3xl text-white font-bold my-10 flex items-center gap-10 w-4/5 md:w-full mx-auto'>About ME <span className='flex-1 md:w-56 h-0 border-2 border-dashed border-green-400'></span></h1>
                     <h3 className=' text-white'>Motivated Junior MERN stack Developer with a passion for developing responsive, user-friendly web applications. Proficient in core web development technologies. Quick learner and enthusiastic Junior MERN stack Developer seeking to contribute to a team environment.</h3>

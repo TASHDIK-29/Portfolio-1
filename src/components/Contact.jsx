@@ -91,7 +91,7 @@ const Contact = () => {
                             </form>
                         </div>
 
-                        <div className="mt-12 lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10" data-aos="fade-left">
+                        <div className="mt-12 lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10" data-aos="fade-up">
                             <Image className='hidden object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96' src="/images/about.png" alt='about.png' width={495} height={505}></Image>
 
                             <div className="mt-6 space-y-8 md:mt-8">

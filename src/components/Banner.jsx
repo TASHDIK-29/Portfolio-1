@@ -42,7 +42,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className='md:w-2/5 flex items-center justify-start'>
-                <div className='bg-green-400 w-full md:w-1/2 h-[300px] relative' data-aos="fade-left">
+                <div className='bg-green-400 w-full md:w-1/2 h-[300px] relative' data-aos="fade-up">
                     <div className='h-full w-full absolute left-4 bottom-4' >
                         {/* <img className='h-full' src="/images/about.png" alt="img" data-aos="flip-up"/> */}
                         <Image className='h-full' src="/images/about.png" alt='about.png' width={495} height={505}></Image>

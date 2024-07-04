@@ -73,17 +73,17 @@ const Contact = () => {
                                 <div className="-mx-2 md:items-center md:flex">
                                     <div className="flex-1 px-2">
                                         <label className="block mb-2 text-sm text-gray-200">Full Name</label>
-                                        <input type="text" name='name' placeholder="John Doe" className="block w-full px-5 py-3 mt-2  placeholder-gray-400  border border-gray-200 rounded-md dark:placeholder-gray-600 bg-gray-900 text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                        <input type="text" name='name' placeholder="your name" className="block w-full px-5 py-3 mt-2  placeholder-gray-400  border border-gray-200 rounded-md dark:placeholder-gray-600 bg-gray-900 text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                                     </div>
 
                                     <div className="flex-1 px-2 mt-4 md:mt-0">
-                                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
-                                        <input type="email" name='email' placeholder="johndoe@example.com" className="block w-full px-5 py-3 mt-2  placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                        <label className="block mb-2 text-sm text-gray-200">Email address</label>
+                                        <input type="email" name='email' placeholder="your email" className="block w-full px-5 py-3 mt-2  placeholder-gray-400 border border-gray-200 rounded-md dark:placeholder-gray-600 bg-gray-900 text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                                     </div>
                                 </div>
 
                                 <div className="w-full mt-4">
-                                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                                    <label className="block mb-2 text-sm text-gray-200">Message</label>
                                     <textarea name='message' className="block w-full h-32 px-5 py-3 mt-2  placeholder-gray-400 border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 bg-gray-900 text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                                 </div>
 

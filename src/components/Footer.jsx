@@ -30,7 +30,7 @@ const Footer = () => {
                             </div>
 
                             <div>
-                                <h3 className="text-gray-700 uppercase dark:text-white">Soft Skill</h3>
+                                <h3 className="uppercase text-white">Soft Skill</h3>
                                 <a href="#" className="block mt-2 text-sm text-gray-400 hover:underline">Quick Learner</a>
                                 <a href="#" className="block mt-2 text-sm text-gray-400 hover:underline">Active Listener</a>
                                 <a href="#" className="block mt-2 text-sm text-gray-400 hover:underline">Team Man</a>
@@ -39,9 +39,9 @@ const Footer = () => {
                             <div>
                                 <h3 className="uppercase text-white">Connect With</h3>
                                 <div className='flex items-center gap-3 my-4'>
-                                    <a href="https://www.linkedin.com/in/tashdikurrahmankhan" target="_blank"><FaLinkedin       className='text-2xl' /></a>
-                                    <a href="https://github.com/TASHDIK-29" target="_blank"><FaSquareGithub   className='text-2xl' /></a>
-                                    <a href="https://www.facebook.com/tashdik.khan.92" target="_blank"><FaFacebookSquare className='text-2xl' /></a>
+                                    <a href="https://www.linkedin.com/in/tashdikurrahmankhan" target="_blank"><FaLinkedin       className='text-2xl text-gray-400' /></a>
+                                    <a href="https://github.com/TASHDIK-29" target="_blank"><FaSquareGithub   className='text-2xl text-gray-400' /></a>
+                                    <a href="https://www.facebook.com/tashdik.khan.92" target="_blank"><FaFacebookSquare className='text-2xl text-gray-400' /></a>
                                 </div>
                             </div>
                         </div>

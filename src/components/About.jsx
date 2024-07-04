@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect } from 'react';
-
+import { MdOutlineFileDownload } from "react-icons/md";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Image from 'next/image';
@@ -31,11 +31,11 @@ const About = () => {
                 </div>
 
                 <div className='py-4 md:p-10  w-full'>
-                    <a className=' px-2 md:px-4 py-2 mr-2 md:mr-5 bg-green-500 text-slate-950 font-semibold' href="./TashdikResume.pdf" target="_blank">Resume</a>
-                    <a className=' px-2 md:px-4 py-2 mr-2 md:mr-5 bg-green-500 text-slate-950 font-semibold' download href="./TashdikResume.pdf">Resume</a>
+                    
+                    <a className='flex items-center w-1/3 md:w-1/5 px-2 md:px-4 py-2 mr-2 md:mr-5 bg-green-500 text-slate-950 font-semibold' download href="./TashdikResume.pdf">Resume <MdOutlineFileDownload className='text-lg' /></a>
                     {/* <Link target="_blank" href="./Resume-F.pdf">Download Resume</Link> */}
-                    <a className=' px-2 md:px-4 py-2 mr-2 md:mr-5 bg-green-500 text-slate-950 font-semibold' href="https://www.linkedin.com/in/tashdikurrahmankhan" target="_blank">Linkedin</a>
-                    <a className=' px-2 md:px-4 py-2 mr-2 md:mr-5 bg-green-500 text-slate-950 font-semibold' href="https://github.com/TASHDIK-29" target="_blank">Github</a>
+                    {/* <a className=' px-2 md:px-4 py-2 mr-2 md:mr-5 bg-green-500 text-slate-950 font-semibold' href="https://www.linkedin.com/in/tashdikurrahmankhan" target="_blank">Linkedin</a>
+                    <a className=' px-2 md:px-4 py-2 mr-2 md:mr-5 bg-green-500 text-slate-950 font-semibold' href="https://github.com/TASHDIK-29" target="_blank">Github</a> */}
                 </div>
             </div>
         </div>

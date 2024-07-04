@@ -19,9 +19,9 @@ const Banner = () => {
             <div className='mt-4 md:mt-0 md:w-3/5  flex flex-col justify-center items-center' data-aos="fade-up">
                 <div className=' space-y-6 '>
                     <h3 className='text-lg text-green-400'>Hello,</h3>
-                    <h1 className='text-3xl md:text-5xl font-bold'>I&apos;m Tashdikur <br /> Rahman Khan</h1>
+                    <h1 className='text-3xl text-white md:text-5xl font-bold'>I&apos;m Tashdikur <br /> Rahman Khan</h1>
                     <div className='flex'>
-                        <span className='border-2 border-green-400 p-3 font-semibold'>WEB DEVELOPER</span>
+                        <span className='border-2 text-white border-green-400 p-3 font-semibold'>WEB DEVELOPER</span>
                         <span className='bg-green-400 p-3 flex items-center'>
                             <FaArrowRightLong className='text-slate-950 text-xl' /></span>
                     </div>
